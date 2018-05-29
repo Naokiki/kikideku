@@ -1,2 +1,388 @@
-# kikideku
-Kiki Full Profile
+
+<style>
+
+body{
+background-image: url('') !important; 
+background-repeat:no-repeat !important; 
+background-position:center !important; 
+background-size:cover;
+background-color:#000000;
+}
+
+body{
+background-image: url('') !important; 
+background-repeat:no-repeat !important; 
+background-position:center !important; 
+background-size:cover;
+background-color:#000000;
+}
+
+::-webkit-scrollbar {width: 5px; height: 5px;}
+::-webkit-scrollbar-track {background: none;}
+::-webkit-scrollbar-thumb {background: #333333;}
+
+#titlebox {
+position:absolute;
+width:15%;
+height:8%;
+top:20%;
+left:38%;
+background-color:#111111;
+}
+
+#titletext {
+position:absolute;
+padding:2%;
+width:90%;
+height:60%;
+top:11%;
+left:3%;
+color:#ffffff;
+font-size:120%;
+font-family:Lemonada;
+text-align:center;
+background-color:#222222;
+}
+
+#tabbox {
+position:absolute;
+width:25%;
+height:34%;
+left:27%;
+top:33%;
+}
+
+#box1 {
+position:absolute;
+width:20%;
+height:40%;
+top:30%;
+left:22%;
+background-color:#111111;
+border-radius:100%;
+}
+
+#box2 {
+position:absolute;
+width:90%;
+height:90%;
+top:5%;
+left:5%;
+border-radius:100%;
+background-color:#222222;
+background-image: url('https://i.imgur.com/mQcQJgV.png') !important; 
+background-repeat:no-repeat !important; 
+background-position:center !important; 
+background-size:cover;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#box2:hover {
+background-image: url('http://i.imgur.com/3GngxEc.png') !important; 
+background-repeat:no-repeat !important; 
+background-position:center !important; 
+background-size:cover;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#box3 {
+position:absolute;
+width:30%;
+height:60%;
+left:54%;
+top:20%;
+background-color:#111111;
+}
+
+#content {
+position:absolute;
+overflow:auto;
+padding:2%;
+width:90%;
+height:90%;
+top:3%;
+left:3%;
+background-color:#222222;
+font-family:Abel;
+color:#ffffff;
+font-size:85%;
+}
+
+.tabs{
+display:block;
+margin-bottom:2%;
+padding:2%;
+width:100%;
+height:8%;
+text-align:right;
+background-color:#111111;
+color: #ffffff;
+font-family:Abel;
+font-size:100%;
+letter-spacing: 3px;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+.tabs:hover {
+width:90%;
+background-color:#222222;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tab1,#tab2,#tab3,#tab4,#tab5,#tab6 {
+display: none;
+}
+
+#ribbon {
+position:absolute;
+width:9%;
+height:100%;
+top:0%;
+left:5%;
+background-color:#111111;
+}
+
+#ribbon1 {
+position:absolute;
+width:80%;
+height:95%;
+left:10%;
+top:2.5%;
+background-color:#222222;
+}
+
+#imgur {
+display:block;
+margin-top:35%;
+margin-left:18%;
+width:64%;
+height:10%;
+border-radius:100%;
+background-color:#333333;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+a {
+color:#999999;
+}
+
+i {
+color:#999999;
+font-size:100%;
+}
+
+h1 {
+background-color:#333333;
+color: #ffffff;
+font-family: Lemonada;
+text-align:center;
+font-size: 130%;
+}
+
+b {
+font-size: 100%;
+text-transform: uppercase;
+font-family:Lemonada;
+}
+
+</style>
+
+<style type="text/css">body, a:hover {cursor: url(http://cur.cursors-4u.net/cursors/cur-9/cur817.cur), progress !important;}</style>
+<link href="https://fonts.googleapis.com/css?family=Abel|Lemonada" rel="stylesheet">
+<script>function changeNavigation(id) {document.getElementById('content').innerHTML=document.getElementById(id).innerHTML}</script>
+
+<div id="titlebox">
+<div id="titletext">
+V I
+</div>
+</div>
+
+<div id="tabbox">
+<span class="tabs" onClick="changeNavigation ('tab1')">Racials</span>
+<span class="tabs" onClick="changeNavigation ('tab2')">Abilities</span>
+<span class="tabs" onClick="changeNavigation ('tab3')">Inventory</span>
+<span class="tabs" onClick="changeNavigation ('tab4')">History</span>
+<span class="tabs" onClick="changeNavigation ('tab5')">Culture</span>
+<span class="tabs" onClick="changeNavigation ('tab6')">Relations</span>
+</div>
+
+<div id="box1">
+<div id="box2">
+</div>
+</div>
+
+<div id="box3">
+<div id="content">
+<h1>Basic Information</h1>
+<b>First Name:</b> Flare<br>
+<b>Last Name:</b> O'Dama<br>
+<b>Alias:</b> VI (Roman Numeral for "six")<br>
+<b>True Age:</b> Unknown<br>
+<b>Physical Age:</b>  Late Teens<br>
+<b>Birthdate:</b> Late Fall<br>
+<b>Gender:</b> Female<br>
+<b>Sexuality:</b> Demisexual<br>
+<b>Species:</b> Tree Guardian<br>
+<b>Race:</b> O'Dama<br>
+<b>Talents:</b> Illumination, Caretaking<br>
+<b>Occupation:</b> Family Engineer<br>
+<b>Height:</b> 5'8"<br>
+<b>Weight:</b> 125 lbs.
+<p align="center"><img style="width:40%;" src="https://i.imgur.com/sYTjjmQ.png"/> <img style="width:35%;" src="https://i.imgur.com/SDThPY7.jpg"/></p>
+<h1>Detailed Information</h1>
+<b>Humanoid Appearance</b><br>
+<i>Height/Weight</i>: From the top of her head to the tip of her toes, VI stands at 5'8" and weighs 125 lbs. While being thin and small she still has a very shapely figure that, while doesn't keep her from being quick or agile, does cause her to move slower than her siblings.
+<br>
+<i>Hair/Facial</i>: Her hair is long, reaching all the way to her stomach if left hanging down and thoroughly brushed out. Her locks are bright gold, and gently frame her tanned face in a heavenly glow. While her face's cheeks are rather full and the shape of her overall face is more round, full lips and a cute nose help add to the pretty design of her face. Her eyes are a bright glowing amber, that sometimes darken into a deep orange. 
+<br>
+<i>Animalistic Attributes</i>: O'Damas are not like their bretheren when it comes to their fox-give-aways on their humanistic bodies. They have needle-teeth no matter what form they take, and very interesting fox ears that sit atop their heads. Some speculate that they look more like crystallized transparent horns but they are actually soft to the touch and move just like the ears of any other animal. O'Damas do not have "tails" unless they have undergone a huge trial of honor and are rewarded with one. VI's tail is three feet of blonde, gold, and white, still made of the strange crystallized material while still retaining the "puffy" shape commonly found with the animals her family is designed after. The horn-like ear growths atop her head are also gold, white, and blonde, matching her tail in appearance. 
+<br><br>
+<b>True Form Appearance</b><br>
+<i>Height/Weight</i>: In her true basic form, VI stands 13.6 hands high (smaller average universal size for a small horse) but weighs about as much as a feather. This is because Kitsunes are a spiritual presence and have "tangible" bodies made of spiritual essences (this essence varies for each individual.) 
+<br>
+<i>Fur/Body</i>: VI's "fur" takes on a liquid appearance, exactly like the crystallized horns atop her head in her humanoid form, but her eyes keep their bright amber glow. While muscular, her body is still very tiny and lithe, allowing her to stay agile and flexible.
+<br>
+<i>Distinguishing Features</i>: Rune-like markings cover her body and constantly glow a bright orange and blatant white. These runes are an ancient language that mark her identity (such as her name and her titles) but the knowledge of what they say will not be passed down until she has "earned her tail." (These runes are not magical spells, only words in a lost language, purely aesthetic.)
+<br><br>
+<b>Personality</b><br>
+VI is very immature and passionate. She forms attachments easily and is constantly swayed in her beliefs by the popular opinion of her peers, but remains incredibly loyal to her family. She puts her bloodline on a high proud pedestal above all others, causing her to come off as cocky or rude. To those close to her heart she is very warm, friendly, and even motherly.
+</div>
+</div>
+
+<div id="tab1">
+<h1>Racial Abilities of the Mighty O'Dama</h1>
+<p align="center"><img style="width:30%;" src="https://i.imgur.com/QaSroSq.jpg"/></p>
+<b>The Shift</b><br>
+A racial ability that allows the O'Damas to change between their humanoid and true bodies with ease. Since they are technically spirits with synthetic bodies the process is very easy, despite the size difference.
+<br><br>
+<b>Great Strength</b><br>
+Every O'Dama has twice the strength of the typical human being.
+<br><br>
+<b>Great Speed</b><br>
+Likewise, each O'Dama is not only gifted with twice the speed of the typical human, but also twice the reaction time. Cinnia has done much to train and hone this ability, and she has grown beyond "twice" to "thrice." (Meaning she has x3 instead of the typical x2)
+<br><br>
+<b>Enhanced Balance</b><br>
+When an O'Dama earns its tail, they have a very deep and thorough control over the balance of either form.
+<br><br>
+<b>Sound and Smell</b><br>
+The noses and ears of an O'Dama are very sensitive, twice as sensitive as that of a typical humans. While it is a great strength for tracking and hunting, it is also a devastating weakness to overpowering scents and incredibly loud noises.
+<br><br>
+<b>Tears of a Jewel</b><br>
+O'Damas have a very well trained sense of control over their emotions, and it is very difficult to make them cry from true sorrow. Should their tears be triggered by emotions that run deep enough, they leak a strange liquid that has incredible toxin-cleansing effects (can cleanse any natural nonmagic poison/venom/toxin). If given enough time, the tears can be hardened into a beautiful jewel-like substance as tough as iron. When the O'Damas achieve the feat of growing beyond the rank of High Mage, the cleansing effects and toughness of their tears increase. They gain the ability to cleanse basic magical toxins (of up to Mage rank) and are as tough as steel when hardened, rather than iron.
+<br><br>
+<b>Tails of a Fox</b><br>
+Rather than gain multiple ones like a "Kitsune," O'Damas have no tail until they realize and accept the purpose and path laid out for them by their gods. Once they gain their tail, they become recognized as adults among their own people. While long, flexible, and as soft as any other animal's tail, these ones appear jagged like cut gems. The strange hornlike growths that stick out of their heads appear the same and feel the same, and are in fact ears. Despite their tough appearance, these aforementioned appendages are very flexible.
+<br><br>
+<b>Age</b><br>
+While the Matriarch and Patriarch were made into their fully developed age, their children were born naturally from their bodies. These children grow very slowly, it takes hundreds of years for one to mature, but once their body has fully developed time stops aging it completely. They are still more than capable of dying from natural causes, all natural causes aside from old age.
+<br><br>
+<b>The Bond</b><br>
+The attachment between body and soul that is made when an O'Dama consummates their union with their chosen mate. When an O'Dama sleeps with their partner for the first time, they cause soul ties between themselves and that person, allowing them to feel their partner's emotions and pain as if it were their own. This also allows them to achieve a fused state between themselves and their partner, allowing both to literally become one whole new body, a combination of the two physical appearances. If an O'Dama's mate is not an O'Dama, when they are fused they may access a True Body as if they were one themselves. While The Bond is always passively active, O'Damas and their mates must give up a lot of their strength to go through the fusion process, often leaving them in a very weakened and temporary coma-like state when they do separate back into their own individual bodies.
+</div>
+
+<div id="tab2">
+<h1>High Archmage; --</h1>
+<i>"A rank path unlike any other. The mages which choose to follow this path will fuse their major and minor trees, creating an all new tree completely unique to themselves. Mages who's two trees each possess a unique mana type will now possess an entirely new mana type, which incorporates aspects of both of their previous mana types. Archmages will still be able to create and use spells from their individual trees."</i><br><br>
+<h1>High Archmage; Enchantment</h1>
+<i>"The art of magical augmentation. Enchanters are able to infuse objects with their magic, granting the object a either a "Permanent" effect or boon, or a temporary ability which dissipates with time. Permanent enchantments must be recharged with the Enchanter's mana to keep these effects/boons active. As an enchanter increases in power, they not only gain acess to stronger enchantments, but are able to increase their durability and longevity.  Only non-biological/sentient objects may be enchanted."</i>
+<br><br>
+<h1>Mage; Deception</h1>
+<i>"While a false magician may play with smoke and mirrors to dazzle mortals, mages have a much more precise sense of awareness. Therefore, Deception mages take the next step and make their illusions reality. Deception mages use any manner of tricks and illusions to confuse, dazzle, or even torture their opponents. These tricksters rely solely on humble illusions at lower ranks, but may develop into such things as creating clones of themselves, or even mind control to a small extent."</i>
+<br><br>
+</div>
+
+<div id="tab3">
+<h1>Flare's Inventory</h1>
+Soon to come.
+</div>
+
+<div id="tab4">
+<h1>Birth of Deception's Guardians</h1>
+Long ago, when man's age was just beginning and he stretched his people out across many realities, there began a great war. Superhuman creatures were birthed for the purpose of making unstoppable warriors, and sent to either slaughter or enslave mankind. Despite the efforts of their gods to create their own beings that would counter the superhumans, it became clear that humanity needed a way to fend for itself. Their gods worked together, hand in hand, to imbue their powers into small seeds and plant them in various places across the realities occupied by humans. These trees grew big and strong, and connected the human worlds to the magical mysticism of the realm the gods existed upon. It allowed them access to magical crafts, which aided them in protecting themselves from their enemies and surviving what would have been a massacre.
+<br><br>
+When peace finally came, many years of tranquility passed. Humans worshipped the gods and the trees, setting up entire civilizations around the bases of the mystical plants. These civilizations centered around what kind of magic each different tree produced, and whole cultures were influenced from them. The longer the humans stayed on the top of the food chain, pampered by the powers of the Sunborn and Moonborn gods, the more arrogant and ignorant they became. They quickly grew in greed and took their gifts for granted, breaking basic laws of nature implemented with each magic tree's use that was set for the sake of keeping balance. Brother turned on brother, and the worlds were painted red with the blood of betrayal.
+<br><br>
+The humans were ordered to leave the sacred grounds the trees occupied, but they would not go, so the two gods used their powers once more and began taking the very sap, seeds, and fruits from each magical tree, and created entire races from them. These races were powerful embodiments of each kind of magic, and were more than capable of driving the settlements away. From then on, despite their squabbles with mankind and various wars, these beings were tasked with guarding the tree that gave birth to them.
+<br><br>
+One of these trees produced an art known as Deception. It was planted deep in the forests of Ireland, and from its roots a pair of fox inspired spirits were formed. While their natural forms were massive canines, they possessed the ability to take more humanistic bodies allowing them to mingle with mankind should peace between the races become an option. Known simply as the O'Damas, their Matriarch and Patriarch march only to the promise of peace, and dream of a world where everyone lived equally...in harmony...in perfect balance.
+</div>
+
+<div id="tab5">
+<h1>Cultural Practices of the O'Dama Family</h1>
+<b>Hierarchy</b><br>
+The very first O'Damas made by the hands of the gods themselves from pieces of the Deception Tree reign as equal heads of their own household. They are husband and wife, eternal mates, with six children. The children rank from natural order of their birth, so the second in command is their eldest daughter; Cinnia, or, II. Should anything happen to the parents, II would take their place, and should anything happen to II, III would take her place. It goes on and on down the line just like that.
+<br><br>
+<b>Equality</b><br>
+Males and Females are seen as equals to them, there is no gender based favoritism. Despite the different roles males and females have in the reproduction process, unless a female is pregnant her gender is disregarded as an unimportance.
+<br><br>
+<b>Marriage and Mating</b><br>
+The O'Damas are not sexual creatures, they do not lust and they find no attraction through mere physical means. A well toned body would barely catch their attention, a pretty face wouldn't turn a single head. When an O'Dama mates, or sleeps with their chosen romantic partner, they create The Bond (see racials) between themselves and said partner, tying the two to one another eternally. This does not allow them to ever take on more than one mate, even if their current mate dies, they are stuck to that one soul for eternity. Because of this, they take marriage very seriously. An O'Dama is never promiscuous, unless they are in the company of an already chosen life partner.
+<br><br>
+<b>Kitsunes and Nekos</b><br>
+Since they bear similar body parts to the very common human/animal hybrids, they are often mistaken as one of these creatures. In actuality, O'Damas find the overly sexualized species of Kitsunes and Nekos to be insults to their own image, and are very hateful toward them. O'Damas cannot stand the presence of these creatures and will often try to destroy them.
+</div>
+
+<div id="tab6">
+<h1>Favorite Siblings</h1>
+Despite the fact that both Haerviu and Feidlimid love each of their precious children equally, relations between the siblings can sometimes be a little strained. Even among themselves they have preferences for whose company they'd rather keep. By no means are they disloyal to their lesser-than-favorites, blood ties are the thickest bonds they know, they simply get along better with some more so than others. Primary Favorites always have a preference for each other, but a Secondary Favorite might not always reciprocate such feelings.
+<br><br>
+<li>The Primary Favorite</li>
+<b>Name:</b> Gaz O'Dama<br>
+<b>Gender:</b> Male<br>
+<b>Species:</b> Tree Guardian<br>
+<b>Race:</b> O'Dama<br>
+<b>Primary Tree:</b> Aeromancy
+<br><br>
+<li>The Secondary Favorite</li>
+<b>Name:</b> Lupa O'Dama<br>
+<b>Gender:</b> Female<br>
+<b>Species:</b> Tree Guardian<br>
+<b>Race:</b> O'Dama<br>
+<b>Primary Tree:</b> Druidism
+</div>
+
+<div id="ribbon">
+<div id="ribbon1">
+<div id="imgur">
+<a target="_blank" href="http://celtic.chatango.com">
+<img style="width:100%;height:100%;border-radius:100%;" src="https://i.imgur.com/lCqBg1h.png" title="I"/>
+</a>
+</div>
+<div id="imgur">
+<a target="_blank" href="http://ii.chatango.com">
+<img style="width:100%;height:100%;border-radius:100%;" src="http://i.imgur.com/bDeHRYx.jpg" title="II"/>
+</a>
+</div>
+<div id="imgur">
+<a target="_blank" href="http://tri.chatango.com">
+<img style="width:100%;height:100%;border-radius:100%;" src="http://i.imgur.com/ALOUAbC.png" title="III"/>
+</a>
+</div>
+<div id="imgur">
+<a target="_blank" href="http://ka.chatango.com">
+<img style="width:100%;height:100%;border-radius:100%;" src="http://i.imgur.com/4MwAcb4.png" title="IV"/>
+</a>
+</div>
+<div id="imgur">
+<a target="_blank" href="http://deception.chatango.com">
+<img style="width:100%;height:100%;border-radius:100%;" src="http://i.imgur.com/saNFWtQ.png" title="V"/>
+</a>
+</div>
+<div id="imgur">
+<a target="_blank" href="http://chimera.chatango.com">
+<img style="width:100%;height:100%;border-radius:100%;" src="https://i.imgur.com/FSMj8ep.png" title="VII"/>
+</a>
+</div>
+</div>
+</div>
+
